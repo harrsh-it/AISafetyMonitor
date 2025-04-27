@@ -14,8 +14,8 @@ export function Navbar() {
           <Link href="/" className="text-xl font-medium hover:text-primary">
             Dashboard
           </Link>
-          <Link href="#report" className="text-xl font-medium hover:text-primary">
-            New incident
+          <Link href="#incident-list" className="text-xl font-medium hover:text-primary">
+            New incidents
           </Link>
           <Link href="#incident-list" className="text-xl font-medium hover:text-primary">
             Incidents

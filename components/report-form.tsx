@@ -64,7 +64,8 @@ export function ReportForm({ onSubmit }: ReportFormProps) {
   }
 
   return (
-    <Card id="report">
+    <div id="incident-list">
+    <Card>
       <CardHeader>
         <CardTitle>Report New AI Safety Incident</CardTitle>
         <CardDescription>Submit details about a new AI safety incident you've observed or experienced</CardDescription>
@@ -138,5 +139,6 @@ export function ReportForm({ onSubmit }: ReportFormProps) {
         </CardFooter>
       </form>
     </Card>
+    </div>
   )
 }
